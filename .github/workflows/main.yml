@@ -16,29 +16,23 @@ jobs:
       - name: Fetch Repositories and Languages
         run: |
           curl -s https://api.github.com/users/Onysand/repos > repos.json
-
           echo '[' > repos_with_full_languages.json
-
           repos=$(jq -r '.[] | .full_name' repos.json)
           for repo in $repos; do
             echo "Processing $repo"
-
             repo_info=$(jq ".[] | select(.full_name == \"$repo\")" repos.json)
-
             curl -s https://api.github.com/repos/$repo/languages > languages.json
-
             total_bytes=$(jq 'add' languages.json)
             jq --arg total "$total_bytes" '. | to_entries | map({(.key): ((.value / ($total | tonumber)) * 100)}) | add' languages.json > percentages.json
-
             repo_with_languages=$(jq --argjson languages "$(cat percentages.json)" '. + {full_languages: $languages}' <<<"$repo_info")
-
             echo "$repo_with_languages," >> repos_with_full_languages.json
           done
-
           sed -i '$ s/,$//' repos_with_full_languages.json
           echo ']' >> repos_with_full_languages.json
 
       - name: Commit Updated Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
