@@ -276,14 +276,14 @@
   "releases_url": "https://api.github.com/repos/Onysand/github-projects-preview/releases{/id}",
   "deployments_url": "https://api.github.com/repos/Onysand/github-projects-preview/deployments",
   "created_at": "2024-09-16T11:41:58Z",
-  "updated_at": "2025-05-30T02:00:25Z",
-  "pushed_at": "2025-05-30T02:00:22Z",
+  "updated_at": "2025-05-30T04:31:36Z",
+  "pushed_at": "2025-05-30T04:31:33Z",
   "git_url": "git://github.com/Onysand/github-projects-preview.git",
   "ssh_url": "git@github.com:Onysand/github-projects-preview.git",
   "clone_url": "https://github.com/Onysand/github-projects-preview.git",
   "svn_url": "https://github.com/Onysand/github-projects-preview",
   "homepage": "https://github-projects-preview.vercel.app",
-  "size": 979,
+  "size": 984,
   "stargazers_count": 0,
   "watchers_count": 0,
   "language": "TypeScript",
@@ -697,8 +697,8 @@
   "releases_url": "https://api.github.com/repos/Onysand/Technikum-tasks/releases{/id}",
   "deployments_url": "https://api.github.com/repos/Onysand/Technikum-tasks/deployments",
   "created_at": "2025-03-11T08:55:13Z",
-  "updated_at": "2025-05-28T08:59:52Z",
-  "pushed_at": "2025-05-28T08:59:47Z",
+  "updated_at": "2025-05-30T06:23:23Z",
+  "pushed_at": "2025-05-30T06:23:20Z",
   "git_url": "git://github.com/Onysand/Technikum-tasks.git",
   "ssh_url": "git@github.com:Onysand/Technikum-tasks.git",
   "clone_url": "https://github.com/Onysand/Technikum-tasks.git",
@@ -730,9 +730,9 @@
   "watchers": 0,
   "default_branch": "main",
   "full_languages": {
-    "HTML": 48.831926091401314,
-    "CSS": 26.288288970504713,
-    "JavaScript": 24.879784938093977
+    "HTML": 49.14523826483368,
+    "CSS": 27.45209772775839,
+    "JavaScript": 23.402664007407935
   }
 },
 {
