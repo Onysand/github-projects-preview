@@ -276,8 +276,8 @@
   "releases_url": "https://api.github.com/repos/Onysand/github-projects-preview/releases{/id}",
   "deployments_url": "https://api.github.com/repos/Onysand/github-projects-preview/deployments",
   "created_at": "2024-09-16T11:41:58Z",
-  "updated_at": "2025-06-11T06:36:54Z",
-  "pushed_at": "2025-06-11T06:36:51Z",
+  "updated_at": "2025-06-11T08:34:12Z",
+  "pushed_at": "2025-06-11T08:34:08Z",
   "git_url": "git://github.com/Onysand/github-projects-preview.git",
   "ssh_url": "git@github.com:Onysand/github-projects-preview.git",
   "clone_url": "https://github.com/Onysand/github-projects-preview.git",
@@ -803,14 +803,14 @@
   "releases_url": "https://api.github.com/repos/Onysand/Technikum-tasks/releases{/id}",
   "deployments_url": "https://api.github.com/repos/Onysand/Technikum-tasks/deployments",
   "created_at": "2025-03-11T08:55:13Z",
-  "updated_at": "2025-06-10T08:11:01Z",
-  "pushed_at": "2025-06-10T08:10:58Z",
+  "updated_at": "2025-06-11T09:08:30Z",
+  "pushed_at": "2025-06-11T09:08:26Z",
   "git_url": "git://github.com/Onysand/Technikum-tasks.git",
   "ssh_url": "git@github.com:Onysand/Technikum-tasks.git",
   "clone_url": "https://github.com/Onysand/Technikum-tasks.git",
   "svn_url": "https://github.com/Onysand/Technikum-tasks",
   "homepage": null,
-  "size": 2380,
+  "size": 3328,
   "stargazers_count": 0,
   "watchers_count": 0,
   "language": "HTML",
@@ -836,9 +836,9 @@
   "watchers": 0,
   "default_branch": "main",
   "full_languages": {
-    "HTML": 50.996891651865006,
-    "CSS": 27.742007104795736,
-    "JavaScript": 21.261101243339255
+    "HTML": 52.80464603985181,
+    "CSS": 28.01842395113648,
+    "JavaScript": 19.176930009011713
   }
 },
 {
